@@ -14,7 +14,7 @@ to setup environment.
 
 # AttenTD Detector
 
-You can simply feed your suspicious model into detector, and output the probability of whether the model is trojaned or not.
+You can simply feed your suspicious model into the detector, and output the probability of whether the model is trojaned or not.
 
 
 
@@ -32,7 +32,7 @@ Please model path and setting accordingly:
 
 2. The suspicious models trained with different codebases may be different, so please BE SURE that:
 
-    1) Pleae be sure to adjust the model inference code to your own case [in function gene_batch_logits in file `detection_attentd.py`]. 
+    1) Please be sure to adjust the model inference code to your own case [in function gene_batch_logits in file `detection_attentd.py`]. 
 
     2) Please check the tokenizer [in function baseline_trigger_reconstruction in file `detection_attentd.py`].
 
